@@ -88,7 +88,7 @@ $Data = array(
 $leadId = bitrix_funtion($Data, '');
 
 if (!empty($leadId) && !empty($redirect)) {
-	header('Location:'.'/status'. $redirect . '?name=' . $name . '&phone=' . $_POST['contact'] . '&email=' . $_POST['email'].'&servicecode='.$_POST['service_code']);
+	header('Location:'.'/whiteworth'. $redirect . '?name=' . $name . '&phone=' . $_POST['contact'] . '&email=' . $_POST['email'].'&servicecode='.$_POST['service_code']);
 	//echo $leadId;
 	// header('Location: ' . $_POST['redirect'] . '?name=' . $_POST['name'] . '&contact=' . $_POST['contact'] . '&id=' . $leadId . '&email=' . $_POST['email']);
 } else {

@@ -16,7 +16,7 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 	$phone = $_POST['phone'];
 	$service_code   = $_POST['service_code'];
 	$service_name = [
-		'001' =>'Trademark-Assignment',
+		'001' =>'Abu dhabi Business',
 		'002' =>'Private Limited Company Registration',
 		'003' =>'Drug License',
 		'004' =>'GST Registration',
