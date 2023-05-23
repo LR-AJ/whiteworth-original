@@ -36,7 +36,7 @@ h6,
     position: fixed;
     display: none;
     right: 30px;
-    bottom: 30px;
+    bottom: 10px;
     z-index: 99;
 }
 
@@ -112,6 +112,10 @@ h6,
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
+}
+.b24-widget-button-position-bottom-right{
+    right: 22px !important;
+    bottom: 70px !important;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -767,6 +771,9 @@ background-image: linear-gradient(315deg, #e6c79c 0%, #d6a3a3 74%); */
 
 }
 @media only screen and (max-width: 450px){
+    .bx-livechat-position-bottom-right{
+        right: 9px !important;
+    }
     .fs-xs-1 {
         font-size: calc(1.4rem + 1.5vw)  !important
     }
