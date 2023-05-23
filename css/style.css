@@ -253,6 +253,12 @@ h6,
     /* background-color: #e6c79c;
 background-image: linear-gradient(315deg, #e6c79c 0%, #d6a3a3 74%); */
 }
+.about-header {
+    background: linear-gradient(rgb(0, 0, 0) 0%, rgba(194, 151, 103, 0.836) ), url(../img/business-man-financial-inspector-secretary-making-report-calculating-checking-balance-internal-revenue-service-inspector-checking-document-audit-concept-1.jpg) center center no-repeat;
+    background-size: cover;
+    /* background-color: #e6c79c;
+background-image: linear-gradient(315deg, #e6c79c 0%, #d6a3a3 74%); */
+}
 .fact-header {
     background: url(../img/linestep1.png) center center no-repeat;
     background-size: contain ;
