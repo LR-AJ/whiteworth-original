@@ -1,6 +1,6 @@
 (function ($) {
     "use strict";
-
+    
     // Spinner
     var spinner = function () {
         setTimeout(function () {
@@ -12,8 +12,7 @@
     spinner();
     
     
-    // Initiate the wowjs
-    new WOW().init();
+   
 
 
     // Sticky Navbar
@@ -87,15 +86,15 @@
         });
      }
     //  end of System
-
-
+    var nav = document.querySelector('.navbar').nextElementSibling;
+    if(!nav.classList.contains('page-header')){
     // Facts counter
-    $('[data-toggle="counter-up"]').counterUp({
-        delay: 10,
-        time: 2000
-    });
+        $('[data-toggle="counter-up"]').counterUp({
+            delay: 10,
+            time: 2000
+        });
 
-
+    
     // Date and time picker
     $('.date').datetimepicker({
         format: 'L'
@@ -103,7 +102,8 @@
     $('.time').datetimepicker({
         format: 'LT'
     });
-
+     // Initiate the wowjs
+     new WOW().init();
 
     // Header carousel
     $(".header-carousel").owlCarousel({
@@ -127,6 +127,7 @@
         items: 1,
         dotsData: true,
     });
+}
 
     
 })(jQuery);
