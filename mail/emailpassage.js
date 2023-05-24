@@ -7,7 +7,7 @@ function emailPassage() {
 
 
             $.ajax({
-                    url: '/status/mail/customMail.php',
+                    url: '/whiteworth/mail/customMail.php',
                     method: 'POST',
                     dataType: 'json',
                     data: { name: name.val(), email: email.val(),phone:phone.val(),service_code:service_code.val()},
@@ -16,7 +16,7 @@ function emailPassage() {
                 },
             });
             $.ajax({
-                    url: '/status/mail/customerMail.php',
+                    url: '/whiteworth/mail/customerMail.php',
                     method: 'POST',
                     dataType: 'json',
                     data: { name: name.val(), email: email.val(),phone:phone.val(),service_code:service_code.val()},
@@ -33,7 +33,7 @@ var phone          = $('#sticky_number');
 var service_code   =  $('#service-code');
 
     $.ajax({
-                url: '/status/mail/customMail.php',
+                url: '/whiteworth/mail/customMail.php',
                 method: 'POST',
                 dataType: 'json',
                 data: { name: name.val(), email: email.val(),phone:phone.val() ,service_code:service_code.val()},
@@ -43,7 +43,7 @@ var service_code   =  $('#service-code');
                 },
     });
     $.ajax({
-        url: '/status/mail/customerMail.php',
+        url: '/whiteworth/mail/customerMail.php',
         method: 'POST',
         dataType: 'json',
         data: { name: name.val(), email: email.val(),phone:phone.val(),service_code:service_code.val()},
