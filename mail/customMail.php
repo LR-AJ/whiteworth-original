@@ -67,6 +67,9 @@ $domain = array_shift(explode('@',$str ));
 		    '042' => 'Company formation free zone dubai',
 			'043' => 'Company formation hamriyah',
 			'044' => 'Company formation sharjah media city',
+			'045' => 'Business ajman free zone',
+		    '046' => 'Business raz al khaimah economic zone',
+		    '047' => 'Business dubai multi commodity centre'
 		];
 		$status="fa";
 		$response ="jack";

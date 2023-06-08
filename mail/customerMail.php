@@ -61,6 +61,9 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 		'042' => 'Company formation free zone dubai',
 		'043' => 'Company formation hamriyah',
 		'044' => 'Company formation sharjah media city',
+		'045' => 'Business ajman free zone',
+		'046' => 'Business raz al khaimah economic zone',
+		'047' => 'Business dubai multi commodity centre'
 	];
 
 	$string_convert = $service_code;
@@ -1239,6 +1242,85 @@ if (isset($_POST['name']) && isset($_POST['email'])) {
 			</body>
 		</html>';
 		}else if(isset($_POST['service_code']) && $service_code == '044') {
+			$Body='<html>
+			<body>
+				<div>Dear '.$_POST['name'].'
+					<p>We wanted to take a moment to thank you for choosing our '. $service_name[$service_code].'. We appreciate the trust you have placed in Whiteworth, and we are committed to delivering the highest quality service in setting up your business in Dubai. Additionally, we also provide business setup services in Free Zone, Mainland and Offshore areas. <br>
+					We are grateful for the opportunity to work with you and for the positive impact that our License services have had on your business. Your satisfaction is Whiteworth’s top priority, and we are dedicated to ensuring that you receive the best possible experience with our company. Click to know about our services and us</p>
+				
+					<p><strong>About Whiteworth:<br></strong>With over 5 years of experience in company formation in Dubai, we provide a one-stop-shop approach for quick business registration, offering complete services for all incorporation, licensing, and other associated services to<a href="https://test.legalraasta.com/whiteworth/freezone-mainland-uae.html"><strong> Free Zone,</strong></a> <a href="https://test.legalraasta.com/whiteworth/mainland-business-dubai.html"><strong>Mainland</strong></a> & <a href="https://test.legalraasta.com/whiteworth/offshore-company-formation-dubai-uae.html"><strong>offshore</strong></a></p>
+					<p>With access to a top pool of chances, we have been assisting Indian businessmen to realize their ambition of company formation in<strong> Dubai</strong>. In order to position themselves for long-term growth and success while avoiding mistakes that could end up costing them time and money, WhiteWorth has been assisting<strong> international business owners</strong> with <strong>company formation in Dubai</strong> in the appropriate jurisdiction and with the appropriate company structure</p>
+					<p>Warm regards,<br>Team, WhiteWorth<br><em></em>
+					<p>Contact Us</p>
+						Call Us: <a href="tel:+971585606800" data-mce-href="tel:+971585606800">+971585606800</a>&nbsp;|&nbsp; <a href="tel:+918882038525">+918882038525</a>  <br> <br>
+						Site:<a href="https://test.legalraasta.com/whiteworth" data-mce-href="https://test.legalraasta.com/whiteworth">www.thewhiteworth.com</a><br> <br>
+						Dubai Office :<a href="https://goo.gl/maps/T8roTQnp2RtndkPj6"> 801 (02), Latifa Towers, Sheikh Zayed Road , Dubai </a></p>
+							
+							<a href="https://www.facebook.com/WhiteWorth"
+							data-mce-href="https://www.facebook.com/WhiteWorth">Facebook</a>&nbsp;|&nbsp;<a
+							href="https://www.linkedin.com/company/80065080/admin/"
+							data-mce-href="https://www.linkedin.com/company/80065080/admin/">Linkedin</a>&nbsp;|&nbsp;<a
+							href="https://twitter.com/thewhiteworth"
+							data-mce-href="https://twitter.com/thewhiteworth">Twitter</a>&nbsp;|&nbsp;<a
+							href="https://in.pinterest.com/whiteworthAdvisors/"
+							data-mce-href="https://in.pinterest.com/whiteworthAdvisors/">Pinterest</a></p>
+				</div>
+			</body>
+		</html>';
+		}else if(isset($_POST['service_code']) && $service_code == '045') {
+			$Body='<html>
+			<body>
+				<div>Dear '.$_POST['name'].'
+					<p>We wanted to take a moment to thank you for choosing our '. $service_name[$service_code].'. We appreciate the trust you have placed in Whiteworth, and we are committed to delivering the highest quality service in setting up your business in Dubai. Additionally, we also provide business setup services in Free Zone, Mainland and Offshore areas. <br>
+					We are grateful for the opportunity to work with you and for the positive impact that our License services have had on your business. Your satisfaction is Whiteworth’s top priority, and we are dedicated to ensuring that you receive the best possible experience with our company. Click to know about our services and us</p>
+				
+					<p><strong>About Whiteworth:<br></strong>With over 5 years of experience in company formation in Dubai, we provide a one-stop-shop approach for quick business registration, offering complete services for all incorporation, licensing, and other associated services to<a href="https://test.legalraasta.com/whiteworth/freezone-mainland-uae.html"><strong> Free Zone,</strong></a> <a href="https://test.legalraasta.com/whiteworth/mainland-business-dubai.html"><strong>Mainland</strong></a> & <a href="https://test.legalraasta.com/whiteworth/offshore-company-formation-dubai-uae.html"><strong>offshore</strong></a></p>
+					<p>With access to a top pool of chances, we have been assisting Indian businessmen to realize their ambition of company formation in<strong> Dubai</strong>. In order to position themselves for long-term growth and success while avoiding mistakes that could end up costing them time and money, WhiteWorth has been assisting<strong> international business owners</strong> with <strong>company formation in Dubai</strong> in the appropriate jurisdiction and with the appropriate company structure</p>
+					<p>Warm regards,<br>Team, WhiteWorth<br><em></em>
+					<p>Contact Us</p>
+						Call Us: <a href="tel:+971585606800" data-mce-href="tel:+971585606800">+971585606800</a>&nbsp;|&nbsp; <a href="tel:+918882038525">+918882038525</a>  <br> <br>
+						Site:<a href="https://test.legalraasta.com/whiteworth" data-mce-href="https://test.legalraasta.com/whiteworth">www.thewhiteworth.com</a><br> <br>
+						Dubai Office :<a href="https://goo.gl/maps/T8roTQnp2RtndkPj6"> 801 (02), Latifa Towers, Sheikh Zayed Road , Dubai </a></p>
+							
+							<a href="https://www.facebook.com/WhiteWorth"
+							data-mce-href="https://www.facebook.com/WhiteWorth">Facebook</a>&nbsp;|&nbsp;<a
+							href="https://www.linkedin.com/company/80065080/admin/"
+							data-mce-href="https://www.linkedin.com/company/80065080/admin/">Linkedin</a>&nbsp;|&nbsp;<a
+							href="https://twitter.com/thewhiteworth"
+							data-mce-href="https://twitter.com/thewhiteworth">Twitter</a>&nbsp;|&nbsp;<a
+							href="https://in.pinterest.com/whiteworthAdvisors/"
+							data-mce-href="https://in.pinterest.com/whiteworthAdvisors/">Pinterest</a></p>
+				</div>
+			</body>
+		</html>';
+		}else if(isset($_POST['service_code']) && $service_code == '046') {
+			$Body='<html>
+			<body>
+				<div>Dear '.$_POST['name'].'
+					<p>We wanted to take a moment to thank you for choosing our '. $service_name[$service_code].'. We appreciate the trust you have placed in Whiteworth, and we are committed to delivering the highest quality service in setting up your business in Dubai. Additionally, we also provide business setup services in Free Zone, Mainland and Offshore areas. <br>
+					We are grateful for the opportunity to work with you and for the positive impact that our License services have had on your business. Your satisfaction is Whiteworth’s top priority, and we are dedicated to ensuring that you receive the best possible experience with our company. Click to know about our services and us</p>
+				
+					<p><strong>About Whiteworth:<br></strong>With over 5 years of experience in company formation in Dubai, we provide a one-stop-shop approach for quick business registration, offering complete services for all incorporation, licensing, and other associated services to<a href="https://test.legalraasta.com/whiteworth/freezone-mainland-uae.html"><strong> Free Zone,</strong></a> <a href="https://test.legalraasta.com/whiteworth/mainland-business-dubai.html"><strong>Mainland</strong></a> & <a href="https://test.legalraasta.com/whiteworth/offshore-company-formation-dubai-uae.html"><strong>offshore</strong></a></p>
+					<p>With access to a top pool of chances, we have been assisting Indian businessmen to realize their ambition of company formation in<strong> Dubai</strong>. In order to position themselves for long-term growth and success while avoiding mistakes that could end up costing them time and money, WhiteWorth has been assisting<strong> international business owners</strong> with <strong>company formation in Dubai</strong> in the appropriate jurisdiction and with the appropriate company structure</p>
+					<p>Warm regards,<br>Team, WhiteWorth<br><em></em>
+					<p>Contact Us</p>
+						Call Us: <a href="tel:+971585606800" data-mce-href="tel:+971585606800">+971585606800</a>&nbsp;|&nbsp; <a href="tel:+918882038525">+918882038525</a>  <br> <br>
+						Site:<a href="https://test.legalraasta.com/whiteworth" data-mce-href="https://test.legalraasta.com/whiteworth">www.thewhiteworth.com</a><br> <br>
+						Dubai Office :<a href="https://goo.gl/maps/T8roTQnp2RtndkPj6"> 801 (02), Latifa Towers, Sheikh Zayed Road , Dubai </a></p>
+							
+							<a href="https://www.facebook.com/WhiteWorth"
+							data-mce-href="https://www.facebook.com/WhiteWorth">Facebook</a>&nbsp;|&nbsp;<a
+							href="https://www.linkedin.com/company/80065080/admin/"
+							data-mce-href="https://www.linkedin.com/company/80065080/admin/">Linkedin</a>&nbsp;|&nbsp;<a
+							href="https://twitter.com/thewhiteworth"
+							data-mce-href="https://twitter.com/thewhiteworth">Twitter</a>&nbsp;|&nbsp;<a
+							href="https://in.pinterest.com/whiteworthAdvisors/"
+							data-mce-href="https://in.pinterest.com/whiteworthAdvisors/">Pinterest</a></p>
+				</div>
+			</body>
+		</html>';
+		}
+		else if(isset($_POST['service_code']) && $service_code == '047') {
 			$Body='<html>
 			<body>
 				<div>Dear '.$_POST['name'].'
